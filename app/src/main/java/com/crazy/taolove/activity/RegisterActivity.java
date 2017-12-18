@@ -116,6 +116,9 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         } else {
             mSexLay.setVisibility(View.VISIBLE);
         }
+        mClientUser = new ClientUser();
+        mClientUser.sex = "男";
+        mClientUser.age = 20;
     }
 
     private void setupEvent() {
@@ -417,9 +420,6 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                     public void onClick(DialogInterface dialog, int id) {
                         mSelectMan.setEnabled(false);
                         mSelectLady.setEnabled(false);
-                        if(mClientUser == null){
-                            mClientUser = new ClientUser();
-                        }
                         if (sexId == R.id.select_man) {
                             mClientUser.sex = "男";
                             mSelectMan.setImageResource(R.mipmap.radio_men_focused_bg);
