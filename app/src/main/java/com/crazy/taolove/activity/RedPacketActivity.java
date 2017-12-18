@@ -222,6 +222,11 @@ public class RedPacketActivity extends BaseActivity {
 		mPayType = AppConstants.ALI_PAY_PLATFORM;
 		mSelectAlipay.setChecked(true);
 		mSelectWechatpay.setChecked(false);
+		if (AppManager.getClientUser().isShowLovers) {
+			mPayLay.setVisibility(View.VISIBLE);
+		} else {
+			mPayLay.setVisibility(View.GONE);
+		}
 		new GetGoldListTask().request(MEMBER_BUY_TYPE_RED_PACKET);
 	}
 

@@ -11,9 +11,9 @@ package com.crazy.taolove.config;
  */
 public class AppConstants {
 	
-//	public static final String BASE_URL = "http://119.23.144.11/InLoveServer/";
-//	public static final String BASE_URL = "http://192.168.1.100/InLoveServer/";
-	public static final String BASE_URL = "http://10.0.109.57:8080/InLoveServer/";
+	public static final String BASE_URL = "http://119.23.144.11/TaoLoveServer/";
+//	public static final String BASE_URL = "http://192.168.1.100/TaoLoveServer/";
+//	public static final String BASE_URL = "http://10.0.109.57:8080/TaoLoveServer/";
 
 	/**
 	 * 密码加密密匙
@@ -34,7 +34,7 @@ public class AppConstants {
 	/**
 	 * QQ登录的appid和appkey
 	 */
-	public static String mAppid = "1106474959";
+	public static String mAppid = "1105224805";
 
 	/**
 	 * 微信登录
@@ -55,11 +55,11 @@ public class AppConstants {
 	/**
 	 * 小米推送appid
 	 */
-	public static String MI_PUSH_APP_ID = "2882303761517669773";
+	public static String MI_PUSH_APP_ID = "2882303761517461807";
 	/**
 	 * 小米推送appkey
 	 */
-	public static String MI_PUSH_APP_KEY = "5131766948773";
+	public static String MI_PUSH_APP_KEY = "5491746136807";
 
 	/**
 	 * 阿里图片节点
