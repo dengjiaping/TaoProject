@@ -1,5 +1,6 @@
 package com.crazy.taolove.config;
 
+
 /**
  * 
  * @ClassName:Constants
@@ -10,9 +11,9 @@ package com.crazy.taolove.config;
  */
 public class AppConstants {
 	
-	public static final String BASE_URL = "http://119.23.144.11/InLoveServer/";
-//	public static final String BASE_URL = "http://192.168.1.100/YouLoveServer/";
-//	public static final String BASE_URL = "http://10.0.109.57:8080/InLoveServer/";
+//	public static final String BASE_URL = "http://119.23.144.11/InLoveServer/";
+//	public static final String BASE_URL = "http://192.168.1.100/InLoveServer/";
+	public static final String BASE_URL = "http://10.0.109.57:8080/InLoveServer/";
 
 	/**
 	 * 密码加密密匙
@@ -27,38 +28,38 @@ public class AppConstants {
 	/**
 	 *容联云IM
 	 */
-	public static String YUNTONGXUN_ID = "8aaf07085dcad420015dcb8739920097";
-	public static String YUNTONGXUN_TOKEN = "aaa7d3c2510dfeb27e8f13b45fc93f5b";
+	public static String YUNTONGXUN_ID = "8a216da85fc7a0a4015fde0ab78508bb";
+	public static String YUNTONGXUN_TOKEN = "4f1c1c6893cbfbef9471bb460ab79e2e";
 
 	/**
 	 * QQ登录的appid和appkey
 	 */
-	public static String mAppid = "1106273929";
+	public static String mAppid = "1106474959";
 
 	/**
 	 * 微信登录
 	 */
-	public static String WEIXIN_ID = "wxf6c70fcd5522d4d3";
+	public static String WEIXIN_ID = "wx4a39bb1de0a0075d";
 
 	/**
 	 * 微信登录
 	 */
-	public static String WEIXIN_PAY_ID = "wxf6c70fcd5522d4d3";
+	public static String WEIXIN_PAY_ID = "wx4a39bb1de0a0075d";
 
 	/**
 	 * 短信
 	 */
-	public static final String SMS_INIT_KEY = "2015595f1e9d8";
-	public static final String SMS_INIT_SECRET = "04b28a4b4aa3e37a3f16148c155a35c1";
+	public static final String SMS_INIT_KEY = "227c34663876c";
+	public static final String SMS_INIT_SECRET = "2dc8f1c6ee9c293200953b43adc430bb";
 
 	/**
 	 * 小米推送appid
 	 */
-	public static String MI_PUSH_APP_ID = "2882303761517606814";
+	public static String MI_PUSH_APP_ID = "2882303761517669773";
 	/**
 	 * 小米推送appkey
 	 */
-	public static String MI_PUSH_APP_KEY = "5731760661814";
+	public static String MI_PUSH_APP_KEY = "5131766948773";
 
 	/**
 	 * 阿里图片节点
